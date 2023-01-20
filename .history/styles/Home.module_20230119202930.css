@@ -6,8 +6,8 @@
   padding: 6rem;
   min-height: 100vh;
   background: rgb(228,160,255);
-  color: #252525;
-  background: radial-gradient(circle, rgba(228,160,255,1) 0%, rgba(166,166,255,1) 20%, rgba(195,120,255,1) 39%, rgba(117,166,255,1) 58%, rgba(156,115,251,1) 78%, rgba(255,115,240,1) 89%, rgba(163,240,255,1) 100%);
+  color: red;
+
 }
 
 .description {
@@ -288,6 +288,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 30px;
+  color: red;
 }
 
 .businessContainer{
