@@ -1,0 +1,20 @@
+[
+    {
+        "employeeID": "1A0",
+        "employeeName": "Marisa Lenarduzzi",
+        "employeeDepartment": "Human Resources",
+        "employeeEmail": "mlduzzi@dunder.com"
+    },
+    {
+        "employeeID": "2B0",
+        "employeeName": "Derek Zoolander",
+        "employeeDepartment": "Fashion",
+        "employeeEmail": "magnum@dunder.com"
+    },
+    {
+        "employeeID": "3C0",
+        "employeeName": "Chuck McGill",
+        "employeeDepartment": "The Law.",
+        "employeeEmail": "rudeguy@dunder.com"
+    }
+]

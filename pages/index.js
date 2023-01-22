@@ -22,14 +22,36 @@ export default function Home() {
         <link rel="icon" href="/degree-icon.png" />
       </Head>
       <main className={styles.main}>
+      <div className={styles.description}>
+          <p>
+            <Link href="about">About</Link>
+          </p>
+          <div>
+            <a
+              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              By{' '}
+              <Image
+                src="/vercel.svg"
+                alt="Vercel Logo"
+                className={styles.vercelLogo}
+                width={100}
+                height={24}
+                priority
+              />
+            </a>
+          </div>
+        </div>
         <div className={styles.degrees}>
           <div className={styles.businessContainer}>
-            <h1 className={styles.h1business}>Business Degrees</h1>
+            <h1>Business Degrees</h1>
             {
               information && information.map((info, index) => {
                 if (info.department === "Business") {
                   return (
-                    <Card key={index} degree={info.degree} colour="#98CE00" font="30px" />
+                    <Card key={index} degree={info.degree} colour="#ffffff" font="30px" />
                   )
                 }
               })
@@ -41,7 +63,7 @@ export default function Home() {
               information && information.map((info, index) => {
                 if (info.department === "Computing") {
                   return (
-                    <Card key={index} degree={info.degree} colour="#6CCFF6" font="30px" />
+                    <Card key={index} degree={info.degree} colour="#fffdfd" font="30px" />
                   )
                 }
               })
